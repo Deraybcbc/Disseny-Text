@@ -1,7 +1,7 @@
 #graella{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     grid-template-areas: 
     "loc1          loc2          loc3"
     "loc4          loc5          loc6"
@@ -12,7 +12,7 @@
 #graella div{
     background-color: green;
 }
-h3 {
+.info h3 {
     text-align: center;
 }
 #pos1{
